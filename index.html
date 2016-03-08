@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+   <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shadow">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <!-- <button id="start" class="btn btn-gold btn-lg start-flicker">Start</button> -->    
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<div class="container">
+
+  <div class="white">
+
+    <div class="row">
+      <div class="col-md-1"></div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 style="animation: glowAnimation 1.5s infinite;" class="ball-number" data-ball="1">1</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="2">2</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="3">3</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="4">4</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="5">5</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="6">6</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="7">7</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="8">8</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="9">9</h2></div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="ball"><h2 class="ball-number" data-ball="10">10</h2></div>
+      </div>
+    </div>
+  </div>
+    
+    <hr>  
+
+  <!-- Chips -->
+  <div class="row">
+    <div class="col-md-1"></div>
+
+    <div class="col-md-2">
+      <div class="chip" data-amount="10">
+        <h2 class="chip-amount">$10</h2>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="chip" data-amount="25">
+        <h2 class="chip-amount">$25</h2>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="chip" data-amount="50">
+        <h2 class="chip-amount">$50</h2>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="chip" data-amount="75">
+        <h2 class="chip-amount">$75</h2>
+      </div>
+    </div>
+    
+    <div class="col-md-2">
+      <div class="chip" data-amount="100">
+        <h2 class="chip-amount">$100</h2>
+      </div>
+    </div>
+    
+    <div class="col-md-1"></div>
+  </div>
+<hr>
+<div class="row center">
+<div class="col-md-4">
+  <h1 class="white">$<span id="bet">0</span><br>BET</h1>
+</div>
+<div class="col-md-4">
+  <h1 class="white"><span id="number">-</span><br>NUMBER</h1>
+  </div>
+  <div class="col-md-4">
+  <h1 class="white">$<span id="bankroll"></span><br>BANK</h1>
+  </div>
+</div>
+  <hr> 
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+      <button id="clear-bet" class="btn-gold-lg glow">Clear Bets</button>
+    </div>
+    <div class="col-md-3">
+      <button id="play-round" class="btn-gold-lg glow">Play Round</button>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
+</div>
+
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
